@@ -1,0 +1,140 @@
+@media screen and (max-width: 420px) {
+    .pricepal{
+        width: 96%;
+        margin: 0 auto;
+       margin-left: 20px;
+    padding: 0 3px;
+    height: 12000px;
+
+    } 
+    .nav{
+        flex-direction: column;
+    }
+    .nav .teft{
+        width: 100%;
+    }
+    .nav .right{
+        width: 100%;
+   margin-bottom: 10px;
+    }
+    #check{
+        display: none;
+    }
+    .btn{
+        color: tomato;
+    }
+    .section1{
+        width: 100%;
+        margin-top: 120px;
+    }
+    .section1>h2{
+        font-size: 20px;
+      
+ } 
+ .section1>h3{
+       font-size: 17px;
+   } 
+   .section1>h6{
+    font-size: 15px;
+}
+.section1 .botton{
+    margin-right: 100px;
+}
+.nav2{
+    width: 100%;
+    height: auto;
+}
+.nav2 ul li{
+background: gold;
+}
+.text{
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    }
+    .text-area{
+        float: left;
+        width: 100%;
+    }
+     .text .bold{
+        float: right;
+       width: 100%;
+       margin-top: 10px;
+       height: 10px;
+      
+    }
+    .section2{
+    grid-template-columns: 1fr ;
+    }
+    .child{
+        width: 100%;
+
+    }
+    .cotainer{
+        grid-template-columns:1fr;
+    }
+    .parent{
+   width: 100%;
+margin-left: 20px;
+margin: 0 auto;
+
+    }
+    .parent>h5{
+        margin-top: 5px;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 2px;
+    }
+    .parent>p{
+        font-size: 14px;
+        margin-left: 2px;
+        }
+    .parent>h4{
+        font-size: 18px;
+        padding: 5px 0;
+        text-align: left;
+      color: blue;
+      width: 100px;
+            
+     }
+            
+    .figma{
+        margin: 0 auto;
+        width: 100%;
+    display: block;
+    margin-right: 40px;
+    }
+    .last-section{
+        grid-template-columns: 1fr;
+    }
+    /* ==there is asome problem=== */
+    .adoult{
+      width: 90%;
+      margin-right: 30px;
+    
+        } 
+        .home-area{
+            grid-template-columns: 1fr;
+         }
+         .present-area{
+            width: 100%;
+     
+         }
+         .sing{
+        text-align: left;
+        margin-left: 10px;
+       
+        }
+        .css>p{
+            width: 340px;
+            font-size: 15px;
+          margin-left: 4px;
+        }
+         .past-area{
+            width: 100%;
+         }
+         .country{
+           flex-direction: column;
+          height: 320px;
+        }
+}
